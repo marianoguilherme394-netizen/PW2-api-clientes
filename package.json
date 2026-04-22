@@ -1,0 +1,20 @@
+{
+  "name": "pw2-api-clientes",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/marianoguilherme394-netizen/PW2-api-clientes#readme",
+  "bugs": {
+    "url": "https://github.com/marianoguilherme394-netizen/PW2-api-clientes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianoguilherme394-netizen/PW2-api-clientes.git"
+  },
+  "license": "ISC",
+  "author": "Guilherme",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
