@@ -17,3 +17,17 @@ app.get("/", (req,res) => {
         }
     })
 })
+app.use("/clientes", clienteRoutes);
+
+app.use((req, res) =>{
+    res.status(404).json({
+        sucesso: false,
+        mensagem: "Rota não encontrada",
+    })
+})
+
+app.listen(PORT, () => {
+    console.log(`servidor rodando na porta ${PORT}`)
+})
+
+module.exports = app;
